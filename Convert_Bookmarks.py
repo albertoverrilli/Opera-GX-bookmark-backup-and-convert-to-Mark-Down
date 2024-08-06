@@ -27,7 +27,7 @@ def process_bookmarks(bookmarks, file, level):
             file.write(f"{indent}- [{title}]({url})\n")
 
 # Define the paths for the JSON input file and the Markdown output file
-json_bookmarks = r'C:\Users\alber\Documents\My Notebook\The AlgorIthm\Knowledge\Personal\Bookmarks\Bookmarks_Backup.html'
-markdown_bookmarks = r'C:\Users\alber\Documents\My Notebook\The AlgorIthm\Knowledge\Personal\Bookmarks\Bookmarks.md'
+json_bookmarks = r'C:\Users\...\Bookmarks_Backup.html'
+markdown_bookmarks = r'C:\Users\...\Bookmarks.md'
 
 convert_json_to_markdown(json_bookmarks, markdown_bookmarks)
