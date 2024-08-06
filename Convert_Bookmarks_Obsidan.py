@@ -67,8 +67,8 @@ def sanitize_filename(name):
     return "".join(c for c in name if c.isalnum() or c in (' ', '-', '_')).rstrip()
 
 # Define the paths for the JSON input file, base directory for output, and the single Markdown file
-json_bookmarks = r'C:\Users\alber\Documents\My Notebook\The AlgorIthm\Knowledge\Personal\Bookmarks\Bookmarks_Backup.html'
-base_directory = r'C:\Users\alber\Documents\My Notebook\The AlgorIthm\Knowledge\Personal\Bookmarks\Bookmarks_Folders'
-markdown_bookmarks = r'C:\Users\alber\Documents\My Notebook\The AlgorIthm\Knowledge\Personal\Bookmarks\Bookmarks.md'
+json_bookmarks = r'C:\Users\...\Bookmarks_Backup.html'
+base_directory = r'C:\Users\...\Bookmarks_Folders'
+markdown_bookmarks = r'C:\Users\...Bookmarks.md'
 
 convert_json_to_structure_and_markdown(json_bookmarks, base_directory, markdown_bookmarks)
